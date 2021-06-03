@@ -1,0 +1,49 @@
+.App {
+  margin-top: 20vh;
+  text-align: center;
+  background: linear-gradient(to top left,red,pink);
+  width:40vw;
+  height:60vh;
+  border-radius: 2vh;
+
+}
+@media (max-width:800px) {
+  .App{ width:80vw;}
+}
+.container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+body{
+  background:url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwtJ?ver=cdcb)no-repeat center center/cover;
+  width:100vw;
+  height:100vh;
+}
+
+.heading{
+  background-color: pink;
+  color :black;
+}
+
+input{
+  width:250px;
+  height:30px;
+  text-align: center;
+  border: none;
+  border-radius: 2vh;
+}
+button{
+    background-color: pink;
+    color:black;;
+    width:6em;
+   border: none;
+   border-radius: 2vh;
+   margin: auto;
+  }
+  li{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
